@@ -13,8 +13,8 @@
 .mob-links{
 	background:rgb(255,76,104);
 	width:100px;
-	box-shadow: 0px 0px 7px rgba(0,0,0,0.4);
-	right:1%;
+	box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+	right:1.5%;
 	top: 10%;
 	position: absolute;
 	border-radius: 10px;
@@ -375,9 +375,8 @@ a:hover{
 	margin:0 1%;
 	flex: 1;
 	background: #fff;
-	/*padding:0 10px;*/
-	height: 60vh;
-	box-shadow: 0px 0px 2px #ddd;
+	height: 50vh;
+	box-shadow: 0px 0px 7px #ddd;
 	border: thin solid #ddd;
 	flex-direction: column;
 	text-align: center;
@@ -391,11 +390,12 @@ a:hover{
 }
 .ab{
 	flex: 1;
-	background:rgba(0,0,0,.03);
+	background:rgba(0,0,0,.6);
 	text-align: center;
 	padding:15px;
 	font-size:20px;
 	font-weight: bolder;
+	color: #fff;
 }
 
 .bb{
